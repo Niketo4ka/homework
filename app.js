@@ -8,7 +8,6 @@ const address = {
     lng: 55.123
 };
 
-
 const locLat = address.lat - position.lat;
 const locLng = address.lng - position.lng;
 
@@ -27,5 +26,4 @@ const diagonal = Math.sqrt(x ** 2 + y ** 2);
 
 console.log(`
     Расстояние от текущей точки до места назначения 
-    ${diagonal} километров
-    `);
+    ${diagonal} километров`);
